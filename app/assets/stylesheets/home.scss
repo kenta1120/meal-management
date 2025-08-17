@@ -1,0 +1,82 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  font-family: 'Rounded Mplus 1c', 'Hiragino Maru Gothic Pro', sans-serif;
+  background-color: yellow;
+  color: #4a4a4a;
+  line-height: 1.8;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.top {
+  background: linear-gradient(180deg, rgba(255, 228, 225, 0.9), rgba(255, 250, 244, 0.9));
+  border-radius: 20px;
+  padding: 60px 20px;
+  margin: 20px;
+}
+
+.top h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.top p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #ff9aa2;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #ff6f7d;
+}
+
+.btn-secondary {
+  background-color: #ffdac1;
+  color: #4a4a4a;
+}
+
+.btn-secondary:hover {
+  background-color: #ffbfa1;
+}
+
+/* アプリの特徴　*/
+#features h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #ff6f7d;
+}
+
+#features ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#features li {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: left;
+}
