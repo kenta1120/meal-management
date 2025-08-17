@@ -1,0 +1,30 @@
+ja:
+  devise:
+    sessions:
+      new:
+        sign_in: "ログイン"
+    registrations:
+      new:
+        sign_up: "新規登録"
+    passwords:
+      new:
+        forgot_your_password: "パスワードをお忘れですか？"
+    shared:
+      links:
+        sign_in: "ログイン"
+        sign_up: "新規登録"
+        forgot_your_password: "パスワードをお忘れですか？"
+        resend_confirmation: "確認メールを再送する"
+        resend_unlock: "ロック解除メールを再送する"
+  helpers:
+    submit:
+      create: "登録する"
+      update: "更新する"
+      submit: "送信"
+  activerecord:
+    attributes:
+      user:
+        email: "メールアドレス"
+        password: "パスワード"
+        password_confirmation: "パスワード(確認用)"
+        remember_me: "ログイン状態を保持する"
